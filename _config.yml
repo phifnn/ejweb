@@ -1,7 +1,7 @@
 name: ""
 description: ""
 
-baseurl: "/EJWeb"
+baseurl: "/ejweb"
 
 paginate: 10
 
