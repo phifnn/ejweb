@@ -1,0 +1,92 @@
+---
+title: home
+---
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Jury</title>
+        <meta name="description" content="">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/touch/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/touch/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/touch/apple-touch-icon-57x57-precomposed.png">
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">-->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!--<meta name="msapplication-TileImage" content="img/touch/apple-touch-icon-144x144-precomposed.png">
+        <meta name="msapplication-TileColor" content="#222222">-->
+
+
+        <!-- For iOS web apps. Delete if not needed. https://github.com/h5bp/mobile-boilerplate/issues/94 -->
+        <!--
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="apple-mobile-web-app-title" content="">
+        -->
+
+        <!-- This script prevents links from opening in Mobile Safari. https://gist.github.com/1042026 -->
+        <!--
+        <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
+        -->
+
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lungo/lungo.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lungo/lungo.icon.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/lungo/lungo.theme.css">
+        <!--<link rel="stylesheet" href="assets/css/main.css">-->
+        <!--<script src="assets/js/libs/modernizr-2.6.2.min.js"></script>-->
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <section id="main" data-transition="slide">
+            <article id="j-splash" class="splash">
+                <div><img src="{{ site.baseurl }}/assets/img/jurysplash.png" class="splash"></div>
+                <a href="#" data-view-section="second" class="button large">Get started</a>
+            </article>
+        </section>
+        <section id="second" data-transition="slide">
+            <header data-title="Welcome"></header>
+            <article id="main-article" class="active">                
+                <h1 class="title centered">You just need your ebay id to play.</h1>
+                <input type="text" id="j-user-id"></input>                
+            </article>
+            <article id="article_1">                
+                <h1 class="title centered">User view</h1>                
+            </article>
+            <article id="article_2">                
+                <h1 class="title centered">Settings view</h1>                
+            </article>
+            <article id="article_3">                
+                <h1 class="title centered">Help view</h1>                
+            </article>            
+            <footer>
+        <nav>
+            <a href="#second" data-icon="home" data-view-article="main-article" data-title="Welcome" class="active"></a>
+            <a href="#second" data-icon="user" data-view-article="article_1" data-title="User" data-count="80"></a>
+            <a href="#second" data-icon="cog" data-view-article="article_2" data-title="Settings"></a>
+            <a href="#second" data-icon="info-sign" data-view-article="article_3" data-title="Help"></a>
+        </nav>
+    </footer>
+        </section>
+
+        <script src="{{ site.baseurl }}/assets/js/libs/lungo/quo.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/libs/lungo/lungo.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/libs/helper.js"></script>
+        <script src="{{ site.baseurl }}/assets/js/app/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--<script>
+            var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+            g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+            s.parentNode.insertBefore(g,s)}(document,"script"));
+        </script>-->
+    </body>
+</html>

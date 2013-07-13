@@ -1,0 +1,8 @@
+name: ""
+description: ""
+
+baseurl: "/EJWeb"
+
+paginate: 10
+
+permalink: pretty
